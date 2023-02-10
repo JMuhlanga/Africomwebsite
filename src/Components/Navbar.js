@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
-
-
-
 class Navbar extends Component {
     render() {
         return (
             <div>
                 <div className="navbar">
-                    <div className="logo">
+                    {/* <div className="logo">
                         <img src="https://i.imgur.com/2xQ2yfK.png" alt="logo" />
-                    </div>
+                    </div> */}
                     <div className="navlinks">
                         <ul>
                             <li><Link to="/">Home</Link></li>
