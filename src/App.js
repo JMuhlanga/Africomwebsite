@@ -1,13 +1,13 @@
 import './App.css';
-import './Components/Home'
-import '/Components/Digital'
-import '/Components/Branding'
-import '/Components/Careers'
-import '/Components/Contact'
-import '/Components/Navbar'
-import '/Components/Footer'
-import '/Components/Footercontact'
-import '/Components/Jobpages'
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import Digital from './Components/Digital';
+import Branding from './Components/Branding';
+import Careers from './Components/Careers';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
+import Footercontact from './Components/Footercontact';
+import Jobpages from './Cmponents/Jobpages';
 
 
 function App() {
@@ -16,13 +16,13 @@ function App() {
       <Navbar />
       <Home />
       <Digital />
-      
       <Branding />
       <Careers />
       <Contact />
+      <Jobpages />
+
       <Footer />
       <Footercontact />
-      <Jobpages />
     </div>
   );
 }
