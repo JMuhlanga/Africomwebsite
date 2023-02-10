@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
+
+
 
 
 class Navbar extends Component {
@@ -26,3 +27,4 @@ class Navbar extends Component {
     }
 }
 
+export default Navbar;
