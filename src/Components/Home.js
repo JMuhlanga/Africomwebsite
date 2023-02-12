@@ -46,7 +46,15 @@ function Home() {
         </div>
         <div className="homepage__picture3">
         <img src={require('../Images/womanwithphone.jpg')} alt="woman"  />
+        <p className='homepage__picture3__title'>UNLOCKING THE NEXT LEVEL IN TELECOM</p>
         </div>
+
+        {/* last div before footer */}
+        <div className="homepage__footer">
+        <p>FINTECH SOLUTIONS DRIVING ECONOMICS FORWARD</p>
+        </div>
+
+
 
 
 
