@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .navlinks {
+    display: flex;
+  }
+  
+  .navlinks ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navlinks li {
+    margin-right: 20px;
+  }
+  
+  .navlinks a {
+    text-decoration: none;
+    color: #333;
+  }
+  

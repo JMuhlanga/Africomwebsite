@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+//import navbar css
+import '../Styles/Navbar.css';
+
 class Navbar extends Component {
     render() {
         return (
+            
             <div>
                 <div className="navbar">
                     {/* <div className="logo">
