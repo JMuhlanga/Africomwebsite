@@ -11,7 +11,7 @@ function Home() {
             {/* add arrow facing button to proceed to the next div */}
             <button className="homepage__button">down icon</button>  
         </div>
-        
+
         <div className="homepage__about">
             <h1 className="homepage__about__title">About Us</h1>
         </div>
@@ -28,9 +28,15 @@ function Home() {
             that is why we innovate solutions that target daily ordinary challenges that have an extraordinary scale of complexity.
             </p>
             <button className="homepage__aboutus__button">Services</button>
+         </div>
+        
+        {/* picture div with link from internet*/}
+        <div className="homepage__picture2">
+
+        <img src={require('../Images/laptop2.jpg')} alt="laptop"  />
 
         </div>
-        
+       
 
         </div>
         

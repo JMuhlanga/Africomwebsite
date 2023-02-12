@@ -2,6 +2,13 @@
     width: 100vw;
     height: auto;     
 }
+/* make hompage picture 2 smaller in size */
+.homepage__picture--2 {
+        width: 50vw;
+        height: 10;     
+    
+}
+
 
 
 
