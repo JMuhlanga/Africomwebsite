@@ -32,7 +32,7 @@ function Home() {
         
         <div className="homepage__picture2">
         <img src={require('../Images/laptop2.jpg')} alt="laptop"  />
-\        <button className="homepage__picture2__button">Contact Us</button>
+        <button className="homepage__picture2__button">Contact Us</button>
         </div>
        
         <div className="homepage__core">
@@ -43,6 +43,9 @@ function Home() {
             <p>Using the right technology to solve ordinary but extraordinarily complex challenges that people face.</p>
             <h3 className="homepage__mission__title">Our Promise</h3>
             <p>We promise to be your innovative brain with outstanding customer service and excellent value for money.</p>
+        </div>
+        <div className="homepage__picture3">
+        <img src={require('../Images/womanwithphone.jpg')} alt="woman"  />
         </div>
 
 
