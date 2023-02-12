@@ -1,11 +1,18 @@
 import React from 'react';
+import '../Styles/Home.css'; 
 
 
 function Home() {
     return (
-        <div>
-        <h1>Home</h1>
+        //homepage div
+        <div className="homepage">
+        <div className="homepage__picture">
+            <img src={require('../Images/HOME.png')} alt="me" />
         </div>
+        </div>
+        
+        
+        
     );
     }
 
