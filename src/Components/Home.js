@@ -7,7 +7,10 @@ function Home() {
         //homepage div
         <div className="homepage">
         <div className="homepage__picture">
-            <img src={require('../Images/HOME.png')} alt="me" />
+            <img src={require('../Images/HOME.png')} alt="me"  />
+            {/* add a button inside the img */}
+            <button className="homepage__button">Contact Me</button>
+            
         </div>
         </div>
         
