@@ -43,8 +43,9 @@ function Home() {
             <p>Using the right technology to solve ordinary but extraordinarily complex challenges that people face.</p>
             <h3 className="homepage__mission__title">Promise</h3>
             <p>We promise to be your innovative brain with outstanding customer service and excellent value for money.</p>
+            {/* add service button */}
             <button className="homepage__mission__button">Services</button>
-
+            
         </div>
         <div className="homepage__picture3">
         <img src={require('../Images/womanwithphone.jpg')} alt="woman"  />
