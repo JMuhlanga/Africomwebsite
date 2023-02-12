@@ -11,9 +11,11 @@ function Home() {
             {/* add arrow facing button to proceed to the next div */}
             <button className="homepage__button">down icon</button>  
         </div>
+        
         <div className="homepage__about">
             <h1 className="homepage__about__title">About Us</h1>
         </div>
+
         <div className="homepage__aboutus">
             <h2 className="homepage__aboutus__title">Who We Are</h2>
             <p>Africom Media Limited is a tech-driven organization with an aim of using the right technology to explore and innovate new solutions in the dynamic world of mobile and web content.
@@ -23,7 +25,10 @@ function Home() {
             we look forward to enhancing how content is aggregated, billed and delivered to the consumer.
 
             At Africom Media Limited we believe in people and technology, 
-            that is why we innovate solutions that target daily ordinary challenges that have an extraordinary scale of complexity.</p>
+            that is why we innovate solutions that target daily ordinary challenges that have an extraordinary scale of complexity.
+            </p>
+            <button className="homepage__aboutus__button">Services</button>
+
         </div>
         
 
