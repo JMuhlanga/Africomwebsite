@@ -1,8 +1,9 @@
 .homepage__picture {
-    width: 100vw;
-    height: auto;     
+    max-width: 100%;
+    height: auto;   
+    object-fit: scale-down;  
+
 }
-/* make hompage picture 2 smaller in size */
 .homepage__picture--2 {
         width: 50vw;
         height: 10;     
